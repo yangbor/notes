@@ -73,6 +73,20 @@ provide tagging along with hash in vote email
 
   GPL, LGPL, CC non commercial, JSON, BSD 4 clause, Apache 1.0(may be ok)
 
+## Files required for releasing
+
+* all source files should contain an ASF header but no copyright line
+
+* Notice File
+  
+  ASF copyright and keep the year upto date
+
+* License File
+  
+  should include all the licenses of the bundled source/binary
+  
+  licnese file might be different for source and binary releases, shoudl change accordingly
+
 ## Reading materials
 
 * [Legal questions](https://www.apache.org/legal/resolved)
