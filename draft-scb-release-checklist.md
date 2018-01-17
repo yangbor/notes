@@ -1,32 +1,32 @@
 
 # Table of Contents
 
-1.  [Release Checklist](#orga2899e4)
-    1.  [Check third parties' licenses](#org6ef1287)
-    2.  [Check binary files](#org353586c)
-    3.  [License headers](#org654bc7e)
-    4.  [LICENSE](#orge78d82d)
-    5.  [NOTICE](#org083506e)
-    6.  [DISCLAIMER](#orgf796890)
-    7.  [SIGNING](#org9de986f)
-2.  [References](#orgde63ceb)
-    1.  [Category A](#orged9461e)
-    2.  [Category B](#org2be87fd)
-    3.  [Category X](#orga1e8d19)
+1.  [Release Checklist](#orgbbda68d)
+    1.  [Check third parties' licenses](#org24ee565)
+    2.  [Check binary files](#org66afefc)
+    3.  [License headers](#orgf198112)
+    4.  [LICENSE](#org0180557)
+    5.  [NOTICE](#org3ef2762)
+    6.  [DISCLAIMER](#orgb1d94c5)
+    7.  [SIGNING](#orgcc26a08)
+2.  [References](#orgd628c91)
+    1.  [Category A](#org0ca8296)
+    2.  [Category B](#orge778c10)
+    3.  [Category X](#orgc3e42a1)
 
 
-<a id="orga2899e4"></a>
+<a id="orgbbda68d"></a>
 
 # Release Checklist
 
 
-<a id="org6ef1287"></a>
+<a id="org24ee565"></a>
 
 ## Check third parties' licenses
 
--   Third parties licensed under [Category A](#orged9461e) can be used and distributed in source and binary form.
--   Third parties licenced under [Category B](#org2be87fd) can only be used and distributed in binary form.
--   Third parties licensed under [Category X](#orga1e8d19) can not be distrubed in either source or binary form. Can be used as tools in building and testing etc.
+-   Third parties licensed under [Category A](#org0ca8296) can be used and distributed in source and binary form.
+-   Third parties licenced under [Category B](#orge778c10) can only be used and distributed in binary form.
+-   Third parties licensed under [Category X](#orgc3e42a1) can not be distrubed in either source or binary form. Can be used as tools in building and testing etc.
 
 **Note**:
 Take extra caution for javascript files. 
@@ -36,7 +36,7 @@ Take extra caution for javascript files.
 -   Libraries may bundle other third parties which use different licenses.
 
 
-<a id="org353586c"></a>
+<a id="org66afefc"></a>
 
 ## Check binary files
 
@@ -46,14 +46,14 @@ Take extra caution for javascript files.
     Check the license of the font. The meta-data in the font file may not be accurate, check the original source.
 
 
-<a id="org654bc7e"></a>
+<a id="orgf198112"></a>
 
 ## License headers
 
 All source files must contain the ASL license header and does not contain a copyright line. This can be checked using rat.
 
 
-<a id="orge78d82d"></a>
+<a id="org0180557"></a>
 
 ## LICENSE
 
@@ -63,7 +63,7 @@ Both the binary and source release **must** contain a LICENSE file containing al
 The binary and source release may have different LICENSE. The content of the LICENSE file **must** include the exactly necessary information.
 
 
-<a id="org083506e"></a>
+<a id="org3ef2762"></a>
 
 ## NOTICE
 
@@ -91,15 +91,16 @@ Both the binary and source release **must** contain a NOTICE file containing the
 The binary and source release may have different NOTICE. The content of the NOTICE file **must** include the exactly necessary information.
 
 
-<a id="orgf796890"></a>
+<a id="orgb1d94c5"></a>
 
 ## DISCLAIMER
 
-The following DISCLAIMER **must** be included for incubating projects.
+The following DISCLAIMER **must** be included for incubating projects:
+
 Apache [Podling-Name] is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by [the name of Apache TLP sponsor]. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF.
 
 
-<a id="org9de986f"></a>
+<a id="orgcc26a08"></a>
 
 ## SIGNING
 
@@ -107,12 +108,12 @@ The final package must be cryptographically signed. It's better to use an apache
 PMC members voting +1 can also provide their signing signature.
 
 
-<a id="orgde63ceb"></a>
+<a id="orgd628c91"></a>
 
 # References
 
 
-<a id="orged9461e"></a>
+<a id="org0ca8296"></a>
 
 ## Category A
 
@@ -153,7 +154,7 @@ PMC members voting +1 can also provide their signing signature.
 -   Oracle Universal Permissive License (UPL) Version 1.0
 
 
-<a id="org2be87fd"></a>
+<a id="orge778c10"></a>
 
 ## Category B
 
@@ -174,7 +175,7 @@ PMC members voting +1 can also provide their signing signature.
 -   Eclipse Public License 2.0: EPL 2.0
 
 
-<a id="orga1e8d19"></a>
+<a id="orgc3e42a1"></a>
 
 ## Category X
 
